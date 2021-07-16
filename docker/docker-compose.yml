@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  php:
+    build:
+      context: image/php
+      args:
+        - UID
+    tty: true
+    env_file:
+      - ./.env
+    volumes:
+      - ../:/var/www:delegated

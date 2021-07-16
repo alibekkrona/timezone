@@ -1,0 +1,23 @@
+{
+  "name": "alibekkrona/gettimescript",
+  "type": "library",
+  "description": "Get time from World Time Api",
+  "keywords": ["worldtimeapi","composer","docker","TimeStamp"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arsen Abduraimov",
+      "email": "alibek.krona@gmail.com",
+      "role": "Senior Software Developer"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "phpunit/phpunit": "9.5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Timezone\\": "src/"
+    }
+  }
+}

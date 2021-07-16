@@ -1,12 +1,7 @@
-# timezone
+<?php
 
-Installation
+require_once "vendor/autoload.php";
 
-using composer
-"alibekkrona/gettimescript"
-
-Using
-```php
 use Timezone\WorldTimeApiClient;
 use Timezone\Exceptions\TimezoneException;
 
@@ -17,4 +12,4 @@ try {
 } catch (TimezoneException $e) {
     $errorMessage = $e->getMessage();
 }
-```
+
