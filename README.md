@@ -2,8 +2,11 @@
 
 Installation
 
-using composer
-"alibekkrona/gettimescript"
+composer install
+
+"require": {
+     "alibekkrona/gettimescript": "dev-main"
+},
 
 Using
 ```php
